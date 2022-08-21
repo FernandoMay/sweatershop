@@ -13,10 +13,12 @@
 		8123EB1728B1946C00562A08 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123EB1628B1946C00562A08 /* Tests_macOSLaunchTests.swift */; };
 		8123EB1828B1946C00562A08 /* sweatershopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123EAF028B1946B00562A08 /* sweatershopApp.swift */; };
 		8123EB1928B1946C00562A08 /* sweatershopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123EAF028B1946B00562A08 /* sweatershopApp.swift */; };
-		8123EB1A28B1946C00562A08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123EAF128B1946B00562A08 /* ContentView.swift */; };
-		8123EB1B28B1946C00562A08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123EAF128B1946B00562A08 /* ContentView.swift */; };
 		8123EB1C28B1946C00562A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8123EAF228B1946C00562A08 /* Assets.xcassets */; };
 		8123EB1D28B1946C00562A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8123EAF228B1946C00562A08 /* Assets.xcassets */; };
+		8123EB2E28B195DF00562A08 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123EB2D28B195DF00562A08 /* Product.swift */; };
+		8123EB3028B1973000562A08 /* Homie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123EB2F28B1973000562A08 /* Homie.swift */; };
+		8123EB3228B1AD8200562A08 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123EB3128B1AD8200562A08 /* CartView.swift */; };
+		8123EB3428B1AE3F00562A08 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123EB3328B1AE3F00562A08 /* CartManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 
 /* Begin PBXFileReference section */
 		8123EAF028B1946B00562A08 /* sweatershopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweatershopApp.swift; sourceTree = "<group>"; };
-		8123EAF128B1946B00562A08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8123EAF228B1946C00562A08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8123EAF728B1946C00562A08 /* sweatershop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sweatershop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8123EAFD28B1946C00562A08 /* sweatershop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sweatershop.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +50,10 @@
 		8123EB1028B1946C00562A08 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8123EB1428B1946C00562A08 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		8123EB1628B1946C00562A08 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		8123EB2D28B195DF00562A08 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8123EB2F28B1973000562A08 /* Homie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homie.swift; sourceTree = "<group>"; };
+		8123EB3128B1AD8200562A08 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		8123EB3328B1AE3F00562A08 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				8123EAF028B1946B00562A08 /* sweatershopApp.swift */,
-				8123EAF128B1946B00562A08 /* ContentView.swift */,
 				8123EAF228B1946C00562A08 /* Assets.xcassets */,
+				8123EB2F28B1973000562A08 /* Homie.swift */,
+				8123EB3128B1AD8200562A08 /* CartView.swift */,
+				8123EB2D28B195DF00562A08 /* Product.swift */,
+				8123EB3328B1AE3F00562A08 /* CartManager.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -299,8 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8123EB1A28B1946C00562A08 /* ContentView.swift in Sources */,
+				8123EB3428B1AE3F00562A08 /* CartManager.swift in Sources */,
+				8123EB3028B1973000562A08 /* Homie.swift in Sources */,
 				8123EB1828B1946C00562A08 /* sweatershopApp.swift in Sources */,
+				8123EB3228B1AD8200562A08 /* CartView.swift in Sources */,
+				8123EB2E28B195DF00562A08 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +319,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8123EB1B28B1946C00562A08 /* ContentView.swift in Sources */,
 				8123EB1928B1946C00562A08 /* sweatershopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

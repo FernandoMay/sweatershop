@@ -11,7 +11,7 @@ import SwiftUI
 struct sweatershopApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Homie()
         }
     }
 }
